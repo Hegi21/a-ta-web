@@ -52,7 +52,7 @@ if (!empty($_POST)) {
                                        <a  href='http://tomas.omfg.sk/newpass.php?s=$ret'>generovanie nového hesla</a> <br>";
                                         
                                         if   ($sprava->send()) {
-                                                                 echo "Na Vašu e-mailovú adresu bolo zaslané nové heslo";         
+                                                                 echo "Na Vašu e-mailovú adresu bolo zasl nové heslo";         
                                                                }
                                         else {
                                               echo "Nastala chyba pri zasielaní e-mailu";
