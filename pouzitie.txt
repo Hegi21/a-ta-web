@@ -1,0 +1,13 @@
+HTML
+
+Opíšte Kód : 
+<img src="/../authcode.php" style="vertical-align: middle" vspace="1" alt="Authcode" /> 
+<input name="regcode" type="text" class="textbox" />
+
+Tu je podmienka pri odosielaní ...
+
+session_start();
+$code=$_SESSION["code"];
+if (strlen($regcode) < 1 || $regcode != $code) {$error = $error."<br/>Overovací kód je nesprávny!";}
+
+Ja mám vo výpise potom, že sa vypisuje tá premenná $error, tak to si už urob, ako potrebuješ.

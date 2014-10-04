@@ -1,0 +1,130 @@
+html{height: 100%;}
+
+body
+{ background: #837560;
+  color: #70695A;
+}
+
+blockquote
+{ background: #FFFFFF;
+  color: #70695A;
+  border-color: #767676;
+}
+
+#main
+{
+ background-color:white; 
+ color: #70695A;
+}
+
+#links, #footer, #menu, #menu li a
+{ background: #FFFFFF url(menu.png);
+  color: #DBD7D1;
+  border-color: #D7D7D7;
+}
+
+#oknamenu  {
+   background: #FFFFFF url(oknamenu.png);
+  color: #DBD7D1;         
+   }
+#links a, #footer a, #links a:hover, #footer a:hover
+{ background: transparent;
+  color: #DBD7D1;
+}
+
+#logo
+{ background: #FFFFFF url(autoritalogo.jpg) no-repeat;
+  color: #70695A;
+}
+
+#logo h1
+{ background: transparent;
+  color: #FFFFFF;
+}
+
+h1, #column2 h1
+{ background: transparent;
+  color: #CE7014;
+  border-color: #CAAE90;
+}
+
+
+#lavemenu {
+          
+        background-color:#585858; 
+          }
+#lavemenu li a:hover, #lavemenu li a#selected, #lavemenu li a#selected:hover
+{ background: #B7B7B7;
+  color: #CE7014;
+} 
+.ramcek {
+        background: #FFFFFF url(kontaktpozadie.png);
+        color: #FFFFCC;
+ }
+
+.ramcek a, ramcek a:hover {
+color: #FFFFCC;
+}
+.panel  {
+         width:207px;
+         height:62px;
+         background:url(kontaktpozadie.png);
+        }
+#column1{
+        background-color:#585858;  
+        }
+
+#menu li a:hover, #menu li a#selected, #menu li a#selected:hover
+{ background: #FFFFFF url(menu_hover.png);
+  color: #70695A;
+} 
+
+#content, #column2 a, #column2 a:hover
+{ background: transparent;
+  color: #70695A;
+}
+
+.cas {
+     color:white;
+     }
+.sidebaritem, .sidebaritem a, .sidebaritem a:hover
+{ background: transparent;
+  color: #DBD7D1;
+}
+.sbihead2
+{ background: #FFFFFF url(sbi_header.png);
+  color: #70695A;
+}
+.sbihead
+{ background: #FFFFFF url(sbi_header.png);
+  color: #70695A;
+}
+
+.sbihead h1, .sbihead2 h1
+{ background: transparent;
+  color: #70695A;
+}
+
+.kolonky li a
+{ background: #FFFFFF url(link.png);
+  color: #DBD7D1;
+} 
+.kolonky li a:hover
+{ background: #B7B7B7;
+  color: #CE7014;
+} 
+.sbilinks li a
+{ background: #FFFFFF url(link2.png);
+  color: #DBD7D1;
+} 
+
+.sbilinks li a:hover
+{ background: #B7B7B7;
+  color: #CE7014;
+} 
+
+input, textarea
+{ background: #FFFFFF;
+  color: #70695A;
+  border-color: #CAAE90;
+}

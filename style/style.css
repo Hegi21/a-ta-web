@@ -1,0 +1,390 @@
+/* global */
+html{height: 100%;}
+
+body
+{ font-family: verdana, arial, sans-serif,harlow solid italic;
+  padding: 0px;
+  margin: 0px;
+  font-size: .68em;
+}
+
+p
+{ margin: 0px;
+  padding: 16px 0px 16px 0px;
+  line-height: 1.7em;
+}
+
+h1
+{ font-family: arial,harlow solid italic,sans-serif;
+  letter-spacing: .1em;
+}
+
+h2
+{ margin: 0px;
+  padding: 0px 0px 4px 0px;
+  font-size: 100%;
+}
+
+img{border: 0px;}
+
+a{outline: none;}
+
+/* image positioning - left, right and center */
+.left
+{ float: left; 
+  padding: 0px 8px 0px 0px;
+}
+
+.right
+{ float: right; 
+  padding: 0px 0px 0px 8px;
+}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* block quote */
+blockquote
+{ margin: 20px 0px 20px 0px; 
+  padding: 10px 20px 0px 20px;
+  border-left: 8px solid;
+}
+
+/* unordered list */
+ul
+{ margin: 8px 0px 0px 16px;
+  padding: 0px;
+}
+
+ul li
+{ list-style-type: square;
+  margin: 0px 0px 11px 0px; 
+  padding: 0px;
+}
+
+/* ordered list */
+ol
+{ margin: 8px 0px 0px 24px;
+  padding: 0px;
+}
+
+ol li
+{ margin: 0px 0px 11px 0px; 
+  padding: 0px;
+}
+
+/* main container */
+#main
+{ 
+  height:1000px;
+  width: 1000px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+/* links above the logo / footer */
+#links, #footer
+{ margin-left: auto; 
+  margin-right: auto;
+  padding: 10px 21px 0px 19px;
+  width: 960px;
+  height: 26px;
+  font-size: 94%;
+  text-transform: uppercase;
+}
+
+#links{text-align: right;}
+
+#footer{position:absolute; top:1000px;
+        text-align: center;}
+
+#links a, #footer a{text-decoration: none;}
+
+#links a:hover, #footer a:hover{text-decoration: underline;}
+
+/* logo */
+#logo
+{ margin-left: auto; 
+  margin-right: auto;
+  width: 1000px;
+  height: 132px;
+  text-align: left;
+}
+
+#a
+{ position:relative; left:30px;top:50px;
+  font-family:harlow solid italic;
+  font-size:70px;
+  color:white;
+}
+
+#logo h1
+{ position:relative; left:110px;top:0px;
+  font-size:20px;
+}
+/* navigation menu */
+#menu
+{ height: 42px;
+  width: 1000px;
+  margin-left:auto; 
+  margin-right:auto;
+  
+}
+
+#menu ul{
+margin: 0px 0px 0px 0px;
+} 
+
+#menu li
+{ float: left; 
+  margin: 0px; 
+  padding: 0px;
+  vertical-align:middle;
+  list-style:none;
+} 
+
+#menu li a 
+{ display: block; 
+  float: left; 
+  height: 37px;
+  text-decoration: none; 
+  padding: 3px 19px 2px 19px;
+  text-transform: uppercase;
+} 
+
+/* main content */
+#content
+{ margin-left: auto; 
+  margin-right: auto;
+  width: 1000px;
+  height: auto;
+  padding: 0px;
+  overflow: hidden;
+} 
+#oknamenu {
+          height:42px; 
+          width:207px;
+          text-align:left;
+          margin:8px 0px 15px 0px; 
+          }
+
+#lavemenu
+         { width: 207px;
+           float:left;
+           padding: 20px 0px 0px 0px;
+           height:800px;}
+}
+.ramcek  {   padding: 0px 0px 0px 20px;
+             text-align:center;
+             width:100px;
+          }
+.ramcek a {
+	text-decoration:none;
+	border-bottom:1px dashed;
+}
+.ramcek a:hover {
+text-decoration:none;
+border-bottom:1px solid;
+}
+.pocitadlo {
+           padding: 10px 0px 0px 60px;
+           }        
+#linky {text-align: left;
+  width: 188px;
+  float: left;
+  margin-top:20px;       }
+/* column 1 - contains sidebar items */
+#column1
+{ width: 207px;
+  float:right;
+  padding: 0px 0px 15px 0px;
+  height:800px;}
+.sidebaritem
+{ text-align: left;
+  width: 188px;
+  float: left;
+  margin: 0px 0px 0px 0px;
+}
+.cas {
+     font-size:12px;
+     text-align:center;
+     }
+
+.odkazreg {
+          text-align:center; 
+          margin-top:10px;
+                    }
+.sbihead,.sbihead2
+		{ height: 26px;
+					  width: 188px;
+					  padding: 5px 0px 5px 19px;
+					  text-transform: uppercase;
+                    }
+
+.sbihead h1
+{ padding: 0px; 
+  margin: 0px; 
+  font-weight: bold;
+  font-size: 112%;
+}
+
+.sbihead2 h1 {
+            padding: 0px; 
+            margin: 0px; 
+            font-weight: bold;
+            font-size: 105%;
+            }
+.sbicontent{padding: 8px 8px 8px 19px;
+text-align:center;
+}
+
+.sbicontent p, .ramcek p, .ramcek h4
+{ line-height: 14px; 
+  padding: 0px 5px 8px 5px;
+  text-align:center;
+}
+
+.sbicontent input {
+                  width:100px;
+                  }
+.tlacitko {
+          width:50px;
+          }
+.kolonky {
+         padding:0px;  
+         }
+.kolonky ul { margin:0px auto;}
+
+.kolonky li  {margin:0px;
+             float:left;
+             list-style:none; 
+             text-align:left;
+             height:38px;
+             font-size:13px;                   }
+
+.kolonky li panel , kolonky li long { margin:0px;
+             float:left;
+             list-style:none; 
+             text-align:left;
+             height:35px;
+             font-size:12px;                   }
+
+.kolonky li a , .kolonky li a:hover
+{ float: left; 
+  text-decoration: none; 
+  padding: 5px 0px 4px 19px;
+  width: 188px;
+  border: 0px;
+  height:30px;
+}
+
+.sbilinks{padding: 0px;}
+
+.sbilinks ul{margin: 0px auto;} 
+
+.sbilinks li 
+{ height:45px;
+  margin: 0px; 
+  float: left; 
+  list-style: none; 
+} 
+.sbilinks li dlhy 
+{ height:50px;
+  margin: 0px; 
+  float: left; 
+  list-style: none; 
+} 
+
+.sbilinks li a , .sbilinks li a:hover
+{ float: left; 
+  height: 50px;
+  text-decoration: none; 
+  padding: 5px 0px 4px 19px;
+  width: 188px;
+  border: 0px;
+} 
+
+/* column 2 - page content */
+#column2
+{ text-align: justify;
+  width: 400px;
+  float: none;
+  padding: 12px 3px 15px 19px;
+  position:absolute; left:350px;
+}
+
+.registracia {
+             margin-left:30px;
+             font-size:15px;
+             }
+.registracia input {
+                   width:180px;
+                   }
+.tlacitkoreg input {
+                   width:120px;
+                   margin-left:125px;
+                  }
+#column2 {
+list-style-type: none;
+font-size: 150%;
+}
+#column2 h1
+{ padding: 6px 0px 4px 0px; 
+  margin: 0px 0px 12px 0px; 
+  border-bottom: 1px solid;
+  font-size: 150%;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.sidebaritem a, #column2 a, .sidebaritem a:hover, #column2 a:hover
+{ padding: 0px 0px 2px 0px;
+  text-decoration: none;
+  border-bottom: 1px dashed;
+}
+
+.sidebaritem a:hover, #column2 a:hover{border-bottom: 1px solid;}
+
+/* contact page - form layout */
+form{margin-top: 0px;}
+
+div.row
+{ clear: both;
+  width: 448px;
+}
+
+div.row span.formlabel 
+{ float: left;
+  width: 150px;
+  text-align: left;
+}
+
+div.row span.forminput
+{ float: right;
+  text-align: right;
+} 
+
+div.spacer
+{ clear: both;
+  width: 80px;
+}
+
+input, textarea
+{ width: 259px; 
+  font-family: verdana, arial, sans-serif;
+  border: 1px solid;
+  font-size: 100%;
+  margin: 2px;
+}
+
+.submit
+{ font-family: verdana, arial, sans-serif;
+  border: 1px solid;
+  width: 50px;
+  height: 22px;
+  cursor: pointer;
+  font-size: 100%;
+}

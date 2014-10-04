@@ -48,7 +48,7 @@ if (!empty($_POST)) {
                                         $sprava->Subject="Zabudnuté heslo";
                                         $sprava->Body="Dobrı deò.<br>Zabudli ste Vaše heslo na našej webovej stránke?Z dôvodu bezpeènosti máme Vaše heslo uloené v databáze
                                         v zašifrovanej forme a nemôeme Vám ho poskytnú.Ak máte záujem o vygenerovanie nového hesla kliknite na odkaz
-                                         uvedenı nišie.Ak sa tak rozhodnete, bude Vám zaslaná správa s novım heslo na túto e-mailovú adresu.<br>
+                                         uvedenı nišie.Ak sa tak rozhodnete, bude Vám zaslaná správa s novım heslo  túto e-mailovú adresu.<br>
                                        <a  href='http://tomas.omfg.sk/newpass.php?s=$ret'>generovanie nového hesla</a> <br>";
                                         
                                         if   ($sprava->send()) {
